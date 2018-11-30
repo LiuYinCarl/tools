@@ -13,7 +13,9 @@ timeout 300
 
 REM 强制关闭上个开启的进程
 REM taskkill /f /t /im auto_backup.exe
+REM 项目在那个盘中，则将下面这一句改为相应盘符
 F:
+REM 这一行表示repo.txt文件的路径，根据自己的实际情况进行更改
 cd F:\git_auto_backup
 REM 对repo.txt文件里面的github项目进行备份
 for /f "tokens=1,* delims="  %%p in (repo.txt)  do (

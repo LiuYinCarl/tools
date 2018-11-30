@@ -15,10 +15,7 @@ echo index-url = https://pypi.tuna.tsinghua.edu.cn/simple >> pip.ini
 
 echo 开始安装依赖
 
-goto start
-在下面添加想要安装的依赖
-:start
-
+REM 在下面添加想要安装的依赖
 pip install numpy
 pip install matplotlib
 echo 依赖安装完成
