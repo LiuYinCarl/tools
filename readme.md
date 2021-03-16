@@ -97,6 +97,9 @@
 
 - 安装了python 和 PrettyTable 包
 
+### 词库
+- https://github.com/mahavivo/english-wordlists.git
+
 
 
 
